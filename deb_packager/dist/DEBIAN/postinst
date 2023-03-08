@@ -1,0 +1,10 @@
+#!/bin/sh
+
+mkdir ./build
+cmake  -S ./Interface -B ./build
+sudo make -C ./build/
+
+#3: Remove cache
+rm -rf ./build/
+
+echo "Camera Interface Installed"
