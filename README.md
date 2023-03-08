@@ -1,6 +1,12 @@
 
 # IPCamera-CPython-Interface-v4
 
+
+用的是海康的aarch64的sdk,才接h264,转yuv，再转rgb，保存图片。
+注意，必须要用主码流40ms。注意ffmepg得编译成支持x264.
+
+
+
 ## 这是什么东西（What is this）
 
 > * 兼容主流海康和雄迈IPC的适用于C、C++和python2/3的帧数据获取接口
